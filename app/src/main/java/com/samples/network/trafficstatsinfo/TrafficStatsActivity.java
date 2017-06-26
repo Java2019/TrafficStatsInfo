@@ -16,7 +16,7 @@ public class TrafficStatsActivity extends Activity {
 
         text.append("Total:");
         text.append("\n\tRX Bytes:\t" + TrafficStats.getTotalRxBytes());
-        
+
         text.append("\n\tRX Packets:\t" +
                 TrafficStats.getTotalRxPackets());
         text.append("\n\tTX Bytes:\t" + TrafficStats.getTotalTxBytes());
